@@ -1,18 +1,9 @@
 import { Navigate, Route, Routes } from "react-router-dom";
-import FloatingShape from "./FloatingShape";
 
 
-import SignUpPage from "../pages/SignUpPage";
-import LoginPage from "../pages/LoginPage";
-import EmailVerificationPage from "../pages/EmailVerificationPage";
-import DashboardPage from "../pages/DashboardPage";
-import ForgotPasswordPage from "../pages/ForgotPasswordPage";
-import ResetPasswordPage from "../pages/ResetPasswordPage";
 
 
 import { Toaster } from "react-hot-toast";
-import { useAuthStore } from "../store/authStore";
-import { useEffect } from "react";
 import HomePage from "../Component/HomePage";
 import Temerario from "../Models/Temerario";
 import Revuelto from "../Models/Revuelto";
